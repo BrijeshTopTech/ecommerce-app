@@ -1,0 +1,33 @@
+.myAccountTabs li a{
+    position: relative;
+    display: block;
+}
+
+.myAccountTabs li a:before{
+    content: '';
+    width: 3px;
+    height: 50%;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+    background-color: brown;
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+
+.myAccountTabs li a.active:before{
+    height: 100%;
+    top: 0px;
+    opacity: 1;
+}
+
+.myAccountTabs li a.active button svg{
+    color: brown;
+    opacity: 1;
+}
+
+.btn-org{background-color: #ff5252 !important; color: white !important;}
+.btn-org:hover{background-color: #000 !important;}
+
+.btn-org.btn-border{background: none !important; color: #ff5252 !important; border: solid 1px #ff5252 !important;}
+.btn-org:hover{background-color: #000 !important; color: white !important; border: solid 1px #000 !important;}

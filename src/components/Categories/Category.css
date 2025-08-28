@@ -1,0 +1,16 @@
+.pricing-block {
+    display: flex;
+    gap: 5px;
+    align-items: baseline;
+}
+.products-section-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    text-transform: uppercase;
+}
+.products-section-heading hr {
+    width: 100px;
+    margin: 10px;
+}
